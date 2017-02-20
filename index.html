@@ -11,14 +11,21 @@ img {
 h1, p{
     text-align: center;
 }
-
 ul {
-text-align: center;
+    width:100%;
+    background:red;
+    height:20px;
+    text-align:center;
 }
-
 li {
-display: inline-block;
+        display:inline-block;
+        *display:inline; /*IE7*/
+        *zoom:1; /*IE7*/
+        background:blue;
+        color:white;
+        margin-right:10px;
 }
+ 
 </style>  
 </head>
 <body>
